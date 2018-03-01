@@ -1,0 +1,98 @@
+/*Base CSS */
+a:focus, input:focus, textarea:focus, button:focus {
+  outline: 0px solid;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #626262;
+}
+
+.sectionPadding {
+  padding: 80px 0;
+}
+
+.sectionTitle h2 {
+  font-weight: 500;
+  color: #2C2C2C;
+  font-size: 30px;
+}
+.sectionTitle h2 p {
+  font-size: 14px;
+  line-height: 30px;
+  color: #636363;
+}
+
+.contactUsForm {
+  margin-top: 50px;
+}
+.contactUsForm p {
+  font-weight: 500;
+  color: #626262;
+}
+
+.formElement {
+  position: relative;
+  margin-top: 10px;
+}
+.formElement label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #626262;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.formElement input[type=text], .formElement input[type=email], .formElement textarea {
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 10px;
+  font-size: 12px;
+  padding-bottom: 5px;
+  transition: 0.3s;
+  border: 1px solid #ddd;
+}
+.formElement input[type=email]::placeholder {
+  font-weight: 500;
+  color: #676767;
+  font-size: 14px;
+}
+.formElement textarea {
+  font-weight: 500;
+  font-size: 14px;
+  height: 150px;
+}
+.formElement input[type=text]:focus, .formElement input[type=email]:focus, .formElement textarea:focus {
+  background-color: #F0F0F0;
+}
+
+.contactBtn p {
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+.contactBtn input[type=submit] {
+  background: #6D59B0;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */

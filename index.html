@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- fonts -->
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <title>class6-formStyle and formDynamic</title>
+</head>
+
+<body>
+
+
+
+
+
+    <div class="sectionPadding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="sectionTitle">
+                        <h2>How can we assist you?</h2>
+                        <p>Despite the UI, We thought of the User experience, With attached From Layouts you can simply categories important fields and prioritize them.</p>
+                    </div>
+                    <div class="contactUsForm">
+                        <p>Fill up this form to contact us if you have any further questions</p>
+                        <form action="https://formspree.io/taenahammed7@gmail.com"
+                        method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="formElement">
+                                        <label for="firstName">First Name</label>
+                                        <input type="text" name="firstName" id="firstName">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="formElement">
+                                        <label for="lastName">Last Name</label>
+                                        <input type="text" name="lastName" id="lastName">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="formElement">
+                                <label for="email" class="unique">Email</label>
+                                <input type="email" name="email" id="email" placeholder="This can be changed later">
+                            </div>
+                            <div class="formElement">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type the message you wish to send"></textarea>
+                            </div>
+                            <div class="contactBtn">
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <p>I hereby certify that the information above is true and accurate.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <input type="submit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js then Bootstrap JS -->
+
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
